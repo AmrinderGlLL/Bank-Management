@@ -101,14 +101,6 @@ public class Main {
     }
 
 
-    /**
-     * Function name: wait
-     * @param milliseconds
-     * 
-     * Inside the function:
-     *  1. Makes the code sleep for X milliseconds.
-     */
-
      public static void wait(int milliseconds) {
          try {
             TimeUnit.MILLISECONDS.sleep(milliseconds);
